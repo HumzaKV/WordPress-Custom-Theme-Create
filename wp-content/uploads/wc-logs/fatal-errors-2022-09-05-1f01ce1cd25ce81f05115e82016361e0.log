@@ -1,0 +1,66 @@
+2022-09-05T06:40:06+00:00 CRITICAL Uncaught Error: Call to undefined function ecommerce_star_header_class() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\header.php:32
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\page.php(10): get_header()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\header.php on line 32
+
+2022-09-05T07:15:31+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 22
+
+2022-09-05T07:47:28+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_custom_thumbnail() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 33
+
+2022-09-05T08:26:31+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(56): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php on line 38
+
+2022-09-05T08:26:56+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(56): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php on line 38
+
+2022-09-05T09:06:35+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(56): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php on line 38
+
+2022-09-05T09:08:55+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_custom_thumbnail() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php:46
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(56): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\carosel.php on line 46
+
+2022-09-05T14:54:10+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 69
+

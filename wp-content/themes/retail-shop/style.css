@@ -1,0 +1,183 @@
+/*
+Theme Name: Retail Shop
+Author: ceylonthemes
+Author URI: https://www.ceylonthemes.com
+Version: 1.0.8
+Template: ecommerce-star
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Retail shop is modern responsive WooCommerce ready theme with build in widgets and theme options. If you are planning to start a business of supermarket or grocery or an online food delivery website, digital Storefront , market , shopkeeper, retail Store, book depot, E bazar, merchant, hand tools store, protective kits retailer, e shoppay, boutiques,  Retail Shop Theme is the best option. You can import demo content and edit according to your requirement. 
+Text Domain: retail-shop
+Tags: e-commerce, blog, theme-options, full-width-template, one-column, two-columns, portfolio, left-sidebar, right-sidebar, flexible-header, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready
+*/
+
+
+/*
+ * secondary Widget code
+ */
+ 
+#secondary .widget-title {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 8px 0 15px;
+	position: relative;
+	text-transform: uppercase;
+	width: auto;
+	height: 40px;
+	display: inline-block;
+	background-color: transparent;
+	color: #474343;
+	border-bottom: 0px;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    margin-bottom: 10px;
+}
+
+#secondary .widget {
+    padding: 0px 15px 15px 10px;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    border-bottom: initial;
+    line-height: 18px;
+}
+
+#secondary.woocomemrce-widgets .woocommerce.widget_product_search {
+	padding-top:15px;
+}
+
+#secondary .widget ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#secondary .widget_search {
+	border:0px;
+}
+
+
+
+/*
+ * News widget
+ */
+
+.widget .adv-recent-posts a img {
+	max-width:120px;
+}
+
+
+
+.my-yith-wishlist .compare-button a::before {
+    content: "\f0ec";
+    font-family: fontawesome;
+    font-size: 16px;
+}
+
+.wp-calendar-table {
+	width:100%;
+}
+
+.product-navigation .navigation-name {
+    background-color: #2494f7;
+    color: #fff;
+}
+.product-navigation .navigation-name a {
+    color: #fff;
+}
+.product-navigation .navigation-name a:hover,
+.product-navigation .navigation-name a:focus {
+    color: #000;
+}
+
+.product-navigation .navigation-name {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+/* heaer styles */
+#search-category {
+    overflow: hidden;
+    padding: 25px 0px ;
+}
+
+.search-box {
+    border: 1px solid #f9f9f9;
+}
+
+
+/* accesibility */
+
+.entry-container .entry-summary .more-link::after {
+    content: "";
+}
+
+.entry-content p a, 
+.entry-summary p a, 
+.taxonomy-description a, 
+.logged-in-as a, 
+.comment-content a, 
+.pingback .comment-body > a, 
+.textwidget a, 
+.entry-footer a:hover, 
+.site-info a:hover {
+   box-shadow: 0 1px 0 0 #e8e8e8;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation a {
+    box-shadow: initial;
+}
+
+.entry-summary .more-link {
+	padding: 0px;
+	border: 0px;
+	border-radius: 3px;
+	background-color: #26a3ee;
+	color: #fff;
+	padding: 10px 8px;
+}
+
+.entry-summary .more-link:hover,
+.entry-summary .more-link:focus {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 0.5em 0.3em;
+    text-decoration: none;
+    letter-spacing: ;
+    line-height: 140%;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+
+
+/*
+ *
+ */
+ @media screen and (min-width: 48em) {
+
+	/* Styles for only top menu */
+	.main-navigation a {
+		padding: 0.6em 0.9em;
+	}
+	.main-navigation > div{
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		-webkit-box-align: center;
+		align-items: center;
+	}
+
+}

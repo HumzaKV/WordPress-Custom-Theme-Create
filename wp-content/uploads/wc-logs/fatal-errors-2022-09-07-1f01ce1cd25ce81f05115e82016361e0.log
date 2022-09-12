@@ -1,0 +1,4 @@
+2022-09-07T09:11:27+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 17
+
+2022-09-07T14:27:55+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 42
+

@@ -1,0 +1,6 @@
+2022-09-08T07:51:10+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 51
+
+2022-09-08T08:16:21+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 53
+
+2022-09-08T08:21:16+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 51
+

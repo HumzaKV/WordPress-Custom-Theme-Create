@@ -1,0 +1,17 @@
+2022-09-06T06:46:14+00:00 CRITICAL require(): Failed opening required 'carosel/tets_carosel.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 59
+
+2022-09-06T10:11:49+00:00 CRITICAL Uncaught Error: Call to undefined function post_thumbnail() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(60): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 20
+
+2022-09-06T10:17:12+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 20
+
+2022-09-06T10:41:16+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 17
+
+2022-09-06T10:41:36+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 17
+

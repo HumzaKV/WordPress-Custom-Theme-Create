@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Owl Carousel</title>
+
+        <!-- Link to Owl Carousel  -->
+        <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.css">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        body{
+            margin: 0;
+        }
+        header{
+            background: #337ab7;
+            text-align: center;
+            padding: 15px;
+        }
+        header h1{
+            color: #fff;
+            font-weight: bold;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        .owl-carousel{
+            position: relative;
+        }
+        .owl-carousel .item{
+            height: 500px;
+        }
+        .owl-carousel .item img{
+            width: 100%;
+            height: auto;
+        }
+        .owl-carousel .item .item-caption{
+            position: absolute;
+            bottom: 10%;
+            left: 5%;
+            color: #337ab7;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+            position: absolute;
+            top: 45%;
+            background: #337ab7;
+        }
+        .owl-carousel .owl-nav .owl-prev{
+            left: 10px;
+        }
+        .owl-carousel .owl-nav .owl-next{
+            right: 10px;
+        }
+        .owl-carousel .owl-dots{
+            position: absolute;
+            bottom: 10px;
+        }
+        .owl-theme .owl-dots .owl-dot span{
+            background: #85acce;
+        }
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #4f89bb;
+        }
+        .owl-theme .owl-dots .owl-dot.active span{
+            background: #337ab7;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Owl Carousel Customization + Animate CSS</h1>
+        </header>
+
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="http://via.placeholder.com/1200x500?text=Slider+A" />
+                    <div class="item-caption">
+                        <!-- Applying animation to Caption using animate.css  -->
+                        <!-- add class animated <animation-name> provided by animate.css  -->
+                        <h3 class="animated fadeInUp">Slider A Caption</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://via.placeholder.com/1200x500?text=Slider+A" />
+                    <div class="item-caption">
+                        <h3 class="animated fadeInUp">Slider B Caption</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://via.placeholder.com/1200x500?text=Slider+A" />
+                    <div class="item-caption">
+                        <h3 class="animated fadeInUp">Slider C Caption</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Jquery  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="owlcarousel/dist/owl.carousel.min.js"></script>
+        <script>
+            // Initialize Owl Carousel Plugin
+            $(document).ready(function(){
+                var heroSlider = $('.owl-carousel');
+                heroSlider.owlCarousel({
+                    loop: true,
+                    items: 1,
+                    nav: true,
+                    dots: false,
+                    autoplay: true,
+                    autoplayTimeOut: 5000, //5sec
+                    navText:['<i class="fa fa-angle-left fa-2x fa-fw" aria-hidden="true"></i>','<i class="fa fa-angle-right fa-2x fa-fw" aria-hidden="true"></i>'], //we will be using font awesome icon here
+                });
+
+                heroSlider.on("changed.owl.carousel", function(event){
+                    // selecting the current active item
+                    var item = event.item.index-2;
+                    // first removing animation for all captions
+                    $('h3').removeClass('animated fadeInUp');
+                    $('.owl-item').not('.cloned').eq(item).find('h3').addClass('animated fadeInUp');
+                })
+
+                // No animation in other captions so we need to add animation to owl-item while slide changed.
+
+
+            })
+        </script>
+    </body>
+</html>

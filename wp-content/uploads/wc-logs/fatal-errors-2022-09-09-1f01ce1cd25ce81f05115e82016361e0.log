@@ -1,0 +1,124 @@
+2022-09-09T07:31:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:32:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:32:36+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:32:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:33:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:34:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:34:37+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:34:59+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:36:08+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T07:36:38+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 93
+
+2022-09-09T08:47:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_shortcode_handler(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 119 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php(119): my_shortcode_handler()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): button_shortcode('', 'My Caption', 'button')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(button...', 'do_shortcode_ta...', '[button]My Capt...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('[button]My Capt...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('[button]My Capt...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[button]My Capt...')
+#7 C in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 109
+
+2022-09-09T08:47:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_shortcode_handler(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 119 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:109
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php(119): my_shortcode_handler()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): button_shortcode('', 'My Caption', 'button')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(button...', 'do_shortcode_ta...', '[button]My Capt...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('[button]My Capt...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('[button]My Capt...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[button]My Capt...')
+#7 C in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 109
+
+2022-09-09T08:48:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function butt_func(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 119 and exactly 1 expected in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php(119): butt_func()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): button_shortcode('', 'My Caption', 'button')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(button...', 'do_shortcode_ta...', '[button]My Capt...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('[button]My Capt...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('[button]My Capt...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[button]My Capt...')
+#7 C:\xampp\htdocs\wordpress in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 98
+
+2022-09-09T08:48:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function butt_func(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 119 and exactly 1 expected in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php(119): butt_func()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): button_shortcode('', 'My Caption', 'button')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(button...', 'do_shortcode_ta...', '[button]My Capt...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('[button]My Capt...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('[button]My Capt...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '[button]My Capt...')
+#7 C:\xampp\htdocs\wordpress in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 98
+
+2022-09-09T09:20:32+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 123
+
+2022-09-09T09:21:03+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 123
+
+2022-09-09T09:21:06+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 123
+
+2022-09-09T09:21:26+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 123
+
+2022-09-09T09:21:26+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 123
+
+2022-09-09T09:23:29+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 126
+
+2022-09-09T09:23:38+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 126
+
+2022-09-09T13:11:00+00:00 CRITICAL Cannot redeclare button_shortcode() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:127) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 124
+
+2022-09-09T13:15:21+00:00 CRITICAL Cannot redeclare button_shortcode() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:126) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 124
+
+2022-09-09T13:22:03+00:00 CRITICAL Cannot redeclare button_shortcode() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:126) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 126
+
+2022-09-09T13:28:25+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:28:30+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:03+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:23+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:24+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:25+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:29+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T13:29:31+00:00 CRITICAL Constant expression contains invalid operations in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 136
+
+2022-09-09T14:23:27+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 157
+
+2022-09-09T15:23:33+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:23:34+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:23:44+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:23:45+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:24:15+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:24:34+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 184
+
+2022-09-09T15:42:46+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 163
+
+2022-09-09T15:42:59+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 163
+
+2022-09-09T15:43:31+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 163
+
+2022-09-09T15:44:47+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 163
+
+2022-09-09T15:45:00+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 163
+
