@@ -4,7 +4,7 @@
 // error_reporting(E_ALL);
 
 function book_init() {
-    // set up product labels
+	// set up product labels
 	$labels = array(
 		'name' => 'Books',
 		'singular_name' => 'Book',
@@ -21,7 +21,7 @@ function book_init() {
 		'menu_name' => 'Book',
 	);
 
-    // register post type
+	// register post type
 	$args = array(
 		'labels' => $labels,
 		'public' => true,
@@ -47,7 +47,7 @@ function book_init() {
 	);
 	register_post_type( 'book', $args );
 
-    // register taxonomy
+	// register taxonomy
 	register_taxonomy('book_category', 'book', array('hierarchical' => true, 'label' => 'category', 'query_var' => true, 'rewrite' => array( 'slug' => 'book-category' )));
 }
 add_action( 'init', 'book_init' );
@@ -58,7 +58,7 @@ add_action( 'init', 'book_init' );
 add_action( 'init', 'button_init' );
 
 function button_init() {
-    // set up product labels
+	// set up product labels
 	$labels = array(
 		'name' => 'Button',
 		'singular_name' => 'Button',
@@ -75,7 +75,7 @@ function button_init() {
 		'menu_name' => 'Button',
 	);
 
-    // register post type
+	// register post type
 	$args = array(
 		'labels' => $labels,
 		'public' => true,
@@ -92,65 +92,16 @@ function button_init() {
 	);
 	register_post_type( 'button', $args );
 
-    // register taxonomy
+	// register taxonomy
 	register_taxonomy('button_category', 'button',);
 }
-add_action( 'init', 'button_init' );
 
 /*slider test*/
 
-//[shortcode]
-//[foobar]
-// [bartag foo="foo-value"]
-// function butt_func( $atts ) {
-// 	$a = shortcode_atts( array(
-// 		'class' => 'someclass',
-// 		'href' => 'somewhere',
-// 		'rel' => 'something',
-// 	), $atts );
-
-// 	return "foo = {$a['foo']}";
-// }
-// add_shortcode( 'add_btn', 'butt_func' );
-
-// function my_shortcode_handler( $atts, $content = null ) {
-// 	$a = shortcode_atts( array(
-// 		'class' => 'attribute 1 default',
-// 		'href' => 'attribute 2 default',
-// 		'rel' => 'attribute 2 default',
-// 		// ...etc
-// 	), $atts );
-// }
-
-
-// function button_shortcode( $atts, $content = null ) {
-
-// 	$value = get_field( "abc" );
-// 	echo $value;
-// 	// die;
-// 	// return '<p style="text-align: center;"><a href="'.get_field('link_hr').'" class="bg-mark" rel="style"> link </a></p>';
-// // echo 'href: '.the_field('rel');
-// }
-// add_shortcode( 'greeting', 'button_shortcode' );
-
-// function button_shortcode() {
-
-	// var_dump(get_field('abc'));
-		// $value = get_field('abc');
-		// echo $value;
-	// die;
-	// return '<p style="text-align: center;"><a href="'.$value.'" class="bg-mark" rel="style"> link </a></p>';
-// echo 'href: '.the_field('rel');
-// }
-
-//get post-id by title
-$mypost = get_page_by_title( 'submit', '', 'button' );
-$id = $mypost->ID;
-// get post-id by title
-
+//create shortcode
 function button_shortcode($atts, $content) {
 	extract(shortcode_atts( array(
-		'id' 	=> $id,
+		'id' 	=> 204,
 		'href' 	=> 'javascript:',
 		'class' => 'demo-form',
 		'rel' 	=> 'noopener',
@@ -184,22 +135,90 @@ function button_shortcode($atts, $content) {
 	<a href="<?php echo $href ?>" class="<?php echo $class ?>" rel="<?php echo $rel ?>"><?php echo $button_text; ?></a>
 	<?php
 	return ob_get_clean();
+	update_field('short_code', $shortc);
 }
 add_shortcode( 'gen_button', 'button_shortcode' );
 
-function my_acf_save_post( $id ) {
-    
-    // get new value
-    $value = get_field('short_code');
+	//create short code
 
-    $button_href = get_field('href', $id);
-	$button_class = get_field('class', $id);
-	$button_rel = get_field('rel', $id);
-	$button_text = get_field('button_text', $id);
-    // do something
-    update_field('<a href="$href" class="$class" rel="$rel">$button_text;</a>', $value);
+
+// add short code to the field
+
+add_action( 'save_post_button', 'create_shortcode', 20,3 );
+
+function create_shortcode( $post_id, $post, $update ) 
+{
+	$shortc = '[gen_button id="'.$post_id.'" href="#" class="submit" rel="submit"]';
+	update_field('short_code', $shortc , $post_id);
 }
 
-add_action('acf/save_post/post_type=button', 'my_acf_save_post', 20);
+function add_button_columns($columns) {
+	$columns = array(
+		'cb' => $columns['cb'],
+		'title' => __( 'Title' ),
+		'shortcode' => __( 'Short Code'),      
+		'Date' => __( 'Date'),
+	);
+	return $columns;
+}
+add_filter('manage_button_posts_columns' , 'add_button_columns');
+
+// add content in admin coulmn shortcode
+add_action( 'manage_button_posts_custom_column' , 'shortcode_button_column', 10, 2);
+function shortcode_button_column( $column, $post_id ) {
+  // shortcode column
+	if ( 'shortcode' === $column ) {
+		echo get_field('short_code', $post_id);
+	}
+	else{
+		echo '<script>alert("field not found.");</script>';
+	}
+}
+
+add_filter( 'manage_edit-button_sortable_columns', 'button_sortable_columns');
+function button_sortable_columns( $columns ) {
+	$columns['Date'] = 'Date';
+	return $columns;
+}
+
+function load_more() {
+
+	$ajaxposts = new WP_Query([
+       'posts_per_page'         => 3,
+       'post_type'              => 'book',
+       'orderby'                => 'date',
+       'order'                  => 'ASC',
+       'update_post_meta_cache' => false,
+       'update_post_term_cache' => false,
+	   'paged' 				 => $_POST['paged'],
+	]);
+
+	$response = '';
+
+	if($ajaxposts->have_posts()	) {
+		?><div class="row row-cols-1 row-cols-md-3 g-4"><?php
+		while($ajaxposts->have_posts()) : $ajaxposts->the_post();
+			      ?>
+<div class="col">
+    <div class="card">
+      <img src="<?php the_post_thumbnail_url( 'single-post-thumbnail' ); ?>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><?php the_title(); ?></h5>
+        <p class="card-text"><?php the_content(); ?></p>
+      </div>
+    </div>
+  </div>
+      <?php
+		endwhile; 
+		?> </div> <?php
+	} else {
+		$response = '';
+	}
+	echo $response;
+	exit;
+}
+add_action('wp_ajax_load_more', 'load_more');
+add_action('wp_ajax_nopriv_load_more', 'load_more');
+
 ?>
 

@@ -1,0 +1,126 @@
+2022-09-14T12:26:39+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 201
+
+2022-09-14T12:27:03+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 201
+
+2022-09-14T13:32:43+00:00 CRITICAL Uncaught Error: Call to a member function append() on array in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:206
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(309): populate_posts(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(6719): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(882): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(3106): GFFormDisplay::get_form('1', true, true, false, Array, false, 0)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(1896): GFForms::get_form('1', true, true, false, Array, false, 0)
+#6 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): GFFo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 206
+
+2022-09-14T13:32:46+00:00 CRITICAL Uncaught Error: Call to a member function append() on array in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:206
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(309): populate_posts(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(6719): apply_filters('gform_pre_rende...', Array, false, Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(882): gf_apply_filters('gform_pre_rende...', Array, false, Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(3106): GFFormDisplay::get_form('1', true, true, false, Array, false, 0)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(1896): GFForms::get_form('1', true, true, false, Array, false, 0)
+#6 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): GFFo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 206
+
+2022-09-14T13:53:26+00:00 CRITICAL 'continue' not in the 'loop' or 'switch' context in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 195
+
+2022-09-14T13:53:47+00:00 CRITICAL Uncaught Error: Call to a member function get_input_type() on array in C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php:3268
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(2402): GFFormDisplay::has_checkbox_field(Array, true)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(2519): GFFormDisplay::get_form_enqueue_assets(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(937): GFFormDisplay::enqueue_form_scripts(Array, false)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(3106): GFFormDisplay::get_form('1', true, true, false, Array, false, 0)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(1896): GFForms::get_form('1', true, true, false, Array, false, 0)
+#5 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): GFForms::parse_shortcode(Array, '', 'gravityform')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xa in C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php on line 3268
+
+2022-09-14T13:53:49+00:00 CRITICAL Uncaught Error: Call to a member function get_input_type() on array in C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php:3268
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(2402): GFFormDisplay::has_checkbox_field(Array, true)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(2519): GFFormDisplay::get_form_enqueue_assets(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php(937): GFFormDisplay::enqueue_form_scripts(Array, false)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(3106): GFFormDisplay::get_form('1', true, true, false, Array, false, 0)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\gravityforms.php(1896): GFForms::get_form('1', true, true, false, Array, false, 0)
+#5 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(356): GFForms::parse_shortcode(Array, '', 'gravityform')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xa in C:\xampp\htdocs\wordpress\wp-content\plugins\gravityforms\form_display.php on line 3268
+
+2022-09-14T14:31:04+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 210
+
+2022-09-14T14:55:54+00:00 CRITICAL syntax error, unexpected '>', expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:55:56+00:00 CRITICAL syntax error, unexpected '>', expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:56:33+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:56:35+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:57:04+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:57:06+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:58:11+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:58:12+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:58:31+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+
+2022-09-14T14:58:33+00:00 CRITICAL Uncaught Error: Call to undefined function dropdown() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 26
+

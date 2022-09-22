@@ -1,0 +1,181 @@
+2022-09-15T06:16:15+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 66
+
+2022-09-15T06:16:18+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 66
+
+2022-09-15T06:16:30+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 66
+
+2022-09-15T06:16:33+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 66
+
+2022-09-15T06:16:54+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 70
+
+2022-09-15T06:16:57+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 70
+
+2022-09-15T06:24:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 28
+
+2022-09-15T06:25:29+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 28
+
+2022-09-15T06:25:31+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 28
+
+2022-09-15T06:29:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php on line 272
+
+2022-09-15T06:56:36+00:00 CRITICAL Uncaught Error: Object of class WP_Taxonomy could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 38
+
+2022-09-15T06:56:38+00:00 CRITICAL Uncaught Error: Object of class WP_Taxonomy could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 38
+
+2022-09-15T07:43:33+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 38
+
+2022-09-15T07:44:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 38
+
+2022-09-15T07:44:28+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:37
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 37
+
+2022-09-15T07:45:12+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:37
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 37
+
+2022-09-15T07:46:45+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:47:09+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:47:28+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:48:13+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:48:23+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:49:06+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:53:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:54:01+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:56:12+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:56:54+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T07:59:52+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php(35): require()
+#1 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\hero_slider.php on line 54
+
+2022-09-15T10:11:13+00:00 CRITICAL Cannot redeclare my_enqueue() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php:222) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 227
+
+2022-09-15T14:49:21+00:00 CRITICAL Cannot redeclare my_enqueue() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\functions.php:51) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 242
+
+2022-09-15T14:49:23+00:00 CRITICAL Cannot redeclare my_enqueue() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\functions.php:51) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 242
+
+2022-09-15T14:49:25+00:00 CRITICAL Cannot redeclare my_enqueue() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\functions.php:51) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 242
+

@@ -1,0 +1,62 @@
+2022-09-13T07:06:31+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:06:52+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:06:53+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:06:56+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:00+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:03+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:05+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:07+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:07+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:07:13+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 204
+
+2022-09-13T07:58:20+00:00 CRITICAL syntax error, unexpected 'update_field' (T_STRING) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 188
+
+2022-09-13T08:35:10+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 207
+
+2022-09-13T08:37:11+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 207
+
+2022-09-13T10:20:03+00:00 CRITICAL syntax error, unexpected '{', expecting identifier (T_STRING) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 221
+
+2022-09-13T10:20:06+00:00 CRITICAL syntax error, unexpected '{', expecting identifier (T_STRING) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 221
+
+2022-09-13T10:20:07+00:00 CRITICAL syntax error, unexpected '{', expecting identifier (T_STRING) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 221
+
+2022-09-13T11:17:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\test.php:8
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\test.php on line 8
+
+2022-09-13T11:17:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\test.php:8
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\test.php on line 8
+
+2022-09-13T11:25:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 164
+
+2022-09-13T11:48:42+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 167
+
+2022-09-13T11:48:43+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 167
+
+2022-09-13T11:48:46+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 167
+
+2022-09-13T14:23:52+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 170
+
+2022-09-13T14:43:49+00:00 CRITICAL syntax error, unexpected 'unset' (T_UNSET), expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 157
+
+2022-09-13T14:43:49+00:00 CRITICAL syntax error, unexpected 'unset' (T_UNSET), expecting ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 157
+

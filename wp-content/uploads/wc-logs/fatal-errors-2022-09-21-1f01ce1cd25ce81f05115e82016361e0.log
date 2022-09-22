@@ -1,0 +1,6 @@
+2022-09-21T07:18:15+00:00 CRITICAL Cannot use [] for reading in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 60
+
+2022-09-21T07:19:12+00:00 CRITICAL Cannot use [] for reading in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 60
+
+2022-09-21T11:44:50+00:00 CRITICAL syntax error, unexpected 'the_field' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\template_book.php on line 53
+

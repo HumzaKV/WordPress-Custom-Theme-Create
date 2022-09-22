@@ -1,0 +1,4 @@
+2022-09-16T09:20:06+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 236
+
+2022-09-16T09:21:13+00:00 CRITICAL Cannot use [] for reading in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\my_func.php on line 240
+

@@ -95,7 +95,6 @@ function slider_init() {
     // register taxonomy
 	register_taxonomy('button_category', 'button',);
 }
-add_action( 'init', 'slider_init' );
 
 /*slider test*/
 
