@@ -1,0 +1,16 @@
+2022-09-22T07:58:09+00:00 CRITICAL require_once(): Failed opening required 'my_func.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\functions.php on line 315
+
+2022-09-22T11:04:56+00:00 CRITICAL Cannot redeclare column_order() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:168) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 201
+
+2022-09-22T11:06:57+00:00 CRITICAL Cannot redeclare column_order() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:168) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 201
+
+2022-09-22T11:15:14+00:00 CRITICAL Cannot redeclare column_order() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:172) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 205
+
+2022-09-22T11:15:29+00:00 CRITICAL Cannot redeclare column_order() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:172) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 205
+
+2022-09-22T11:15:29+00:00 CRITICAL Cannot redeclare column_order() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:172) in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 205
+
+2022-09-22T11:16:31+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 164
+
+2022-09-22T11:16:32+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 164
+

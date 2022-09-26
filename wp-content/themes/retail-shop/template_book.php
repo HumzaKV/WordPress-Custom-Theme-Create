@@ -42,7 +42,7 @@
     // the loop
     while ( $books_query->have_posts() ) : $books_query->the_post();
       ?>
-      <div class="col">
+      <div class="col para">
         <div class="card">
           <img src="<?php the_post_thumbnail_url( 'single-post-thumbnail' ); ?>" class="card-img-top" alt="...">
           <div class="card-body">
@@ -50,17 +50,11 @@
             <p class="card-text"><?php the_content(); ?></p>
         </div>
               <div class="card-footer">
-        <small class="text-muted"><?php echo 'Age: '.get_field('age_group').' Status: '.get_field('bk_sts').' Publisher: '.get_field('bk_publisher');?></small>
+        <small class="text-muted dd"><?php echo 'Age: '.get_field('age_group').' Status: '.get_field('bk_sts').' Publisher: '.get_field('bk_publisher');?></small>
       </div>
     </div>
     <?php
 if( have_rows('oth_bks') ):
-echo '<table style="width:50%" class="rep"><tr>
-    <th class="rth">S.no</th>
-    <th class="rth">Cover</th>
-    <th class="rth">Publisher</th>
-    <th class="rth">Release Date</th>
-  </tr>';
     // Loop through rows.
     echo '<h1> Repetive data</h1>';
     $i = 1;

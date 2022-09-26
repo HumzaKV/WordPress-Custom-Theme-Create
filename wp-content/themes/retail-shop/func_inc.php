@@ -143,7 +143,7 @@ add_shortcode( 'gen_button', 'button_shortcode' );
 
 
 // add short code to the field
-
+// save_post_$post_type
 add_action( 'save_post_button', 'create_shortcode', 20,3 );
 
 function create_shortcode( $post_id, $post, $update ) 
@@ -152,18 +152,35 @@ function create_shortcode( $post_id, $post, $update )
 	update_field('short_code', $shortc , $post_id);
 }
 
-function add_button_columns($columns) {
-	$columns = array(
-		'cb' => $columns['cb'],
-		'title' => __( 'Title' ),
-		'shortcode' => __( 'Short Code'),      
-		'Date' => __( 'Date'),
-	);
-	return $columns;
-}
-add_filter('manage_button_posts_columns' , 'add_button_columns');
+     function order_wwo_com_columns ( $columns ) {
+    unset($columns['sku']);
+    unset($columns['stock']);
+    unset($columns['date']);
+   // return array_merge ( $columns, array ( 
+   //   'tags' => __ ('Tags'),
+   //   'date' => __ ( 'Date' ),
+   //   'title'   => __ ( 'Title' ),
+   // ) 
+// );
+
+ }
+
+add_filter ( 'manage_product_posts_columns', 'order_wwo_com_columns' );
+
+// sorting woo commerce columns
+// add_filter('manage_product_columns', 'column_order');
+// function column_order($columns) {
+// unset($columns['Date']);
+// $columns['mail'] = 'Mail';
+// $columns['date'] = 'Date';
+
+// return $columns;
+// }
+
+// sorting woo commerce columns
 
 // add content in admin coulmn shortcode
+
 add_action( 'manage_button_posts_custom_column' , 'shortcode_button_column', 10, 2);
 function shortcode_button_column( $column, $post_id ) {
   // shortcode column
@@ -181,44 +198,92 @@ function button_sortable_columns( $columns ) {
 	return $columns;
 }
 
-function load_more() {
+// order columns of post type;
+// post_type = product;
 
-	$ajaxposts = new WP_Query([
-       'posts_per_page'         => 3,
-       'post_type'              => 'book',
-       'orderby'                => 'date',
-       'order'                  => 'ASC',
-       'update_post_meta_cache' => false,
-       'update_post_term_cache' => false,
-	   'paged' 				 => $_POST['paged'],
-	]);
-
-	$response = '';
-
-	if($ajaxposts->have_posts()	) {
-		?><div class="row row-cols-1 row-cols-md-3 g-4"><?php
-		while($ajaxposts->have_posts()) : $ajaxposts->the_post();
-			      ?>
-<div class="col">
-    <div class="card">
-      <img src="<?php the_post_thumbnail_url( 'single-post-thumbnail' ); ?>" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"><?php the_title(); ?></h5>
-        <p class="card-text"><?php the_content(); ?></p>
-      </div>
-    </div>
-  </div>
-      <?php
-		endwhile; 
-		?> </div> <?php
-	} else {
-		$response = '';
-	}
-	echo $response;
-	exit;
+// add_filter('manage_product_columns', 'column_order');
+function column_order($columns) {
+  $n_columns = array();
+  $move = 'author'; // what to move
+  $before = 'title'; // move before this
+  foreach($columns as $key => $value) {
+    if ($key==$before){
+      $n_columns[$move] = $move;
+    }
+      $n_columns[$key] = $value;
+  }
+  return $n_columns;
 }
-add_action('wp_ajax_load_more', 'load_more');
-add_action('wp_ajax_nopriv_load_more', 'load_more');
+//woo commerce\
 
-?>
+add_filter( 'woocommerce_product_tabs', 'woo_reorder_tabs', 98 );
+function woo_reorder_tabs( $tabs ) {
 
+	$tabs['reviews']['priority'] = 5;			// Reviews first
+	$tabs['description']['priority'] = 10;			// Description second
+	$tabs['additional_information']['priority'] = 15;	// Additional information third
+
+	return $tabs;
+}
+
+ //* Remove product data tabs
+ 
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+
+function woo_remove_product_tabs( $tabs ) {
+
+    unset( $tabs['sku'] );      	// Remove the description tab
+    unset( $tabs['reviews'] ); 			// Remove the reviews tab
+    unset( $tabs['additional_information'] );  	// Remove the additional information tab
+
+    return $tabs;
+}
+
+
+
+// Make Product "Featured" column sortable on Admin products list
+add_filter( 'manage_edit-product_sortable_columns', 'products_featured_sortable_column' );
+function products_featured_sortable_column( $columns ) {
+     $columns['featured'] = 'featured';
+
+     return $columns;
+}
+
+add_filter('posts_clauses', 'orderby_product_visibility', 10, 2 );
+function orderby_product_visibility( $clauses, $wp_query ) {
+    global $wpdb;
+
+    $taxonomy  = 'product_visibility';
+    $term      = 'featured';
+
+    if ( isset( $wp_query->query['orderby'] ) && $term == $wp_query->query['orderby'] ) {
+        $clauses['join'] .=<<<SQL
+LEFT OUTER JOIN {$wpdb->term_relationships} ON {$wpdb->posts}.ID={$wpdb->term_relationships}.object_id
+LEFT OUTER JOIN {$wpdb->term_taxonomy} USING (term_taxonomy_id)
+LEFT OUTER JOIN {$wpdb->terms} USING (term_id)
+SQL;
+        $clauses['where']   .= " AND (taxonomy = '{$taxonomy}' OR taxonomy IS NULL)";
+        $clauses['groupby']  = "object_id";
+        $clauses['orderby']  = "GROUP_CONCAT({$wpdb->terms}.name ORDER BY name ASC) ";
+        $clauses['orderby'] .= ( 'ASC' == strtoupper( $wp_query->get('order') ) ) ? 'ASC' : 'DESC';
+    }
+    return $clauses;
+}
+// remove_action('woocommerce_before_single_product','woocommerce_show_product_sale_flash', 10);
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 20);
+// add_action('woocommerce_before_single_product','woocommerce_show_product_sale_flash', 10);
+
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'edit_checkout' );
+
+// Our edit_checkout in function - $fields is passed via the filter!
+function edit_checkout( $fields ) {
+	// remove company name from billing form
+		 unset($fields['billing']['billing_company']);
+		 // remove validation from billing last name
+     $fields['billing']['billing_last_name']['required'] = 0;
+     return $fields;
+}

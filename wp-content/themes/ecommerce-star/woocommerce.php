@@ -17,7 +17,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
    <?php if( is_active_sidebar( 'sidebar-woocommerce' ) ): ?>
 	
 		<?php if ($ecommerce_star_option['woo_sidebar_position']=='left'): ?>
-				<div class="col-md-3 col-sm-3 col-xs-12 floateleft" > 
+				<div class="col-md-3 col-sm-3 col-xs-12 floateright" > 
 					<?php get_template_part('sidebar', 'woocommerce'); ?>			
 				</div>
 		<?php endif; ?>	 

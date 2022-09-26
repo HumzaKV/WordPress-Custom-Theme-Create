@@ -69,8 +69,8 @@ jQuery(function($) {
         }
     });
 
-//   $(".col").click(function(){
-//     $(".para").slideToggle();
-//   });
+  $(".dd").click(function(){
+    $(this).closest(".sp").slideToggle();
+  });
 
 });

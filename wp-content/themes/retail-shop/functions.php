@@ -312,7 +312,7 @@ add_action('wp_enqueue_scripts', 'retail_shop_styles');
 			/*
 			custom Post type
 			*/
-			require_once 'my_func.php';
+			require_once 'func_inc.php';
 			// Product Custom Post Type
 			
 			function cih_theme_support()
