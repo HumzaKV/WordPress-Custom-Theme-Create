@@ -1,0 +1,180 @@
+2022-09-30T10:04:55+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:05:09+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:08:43+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:10:44+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:16:39+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:16:52+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:17:18+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:20:49+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:21:05+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:29:11+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:29:30+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:39:16+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T10:48:20+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:33:52+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:34:02+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:34:20+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:34:37+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:39:13+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:39:23+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
+2022-09-30T12:40:17+00:00 CRITICAL Uncaught Error: Call to a member function get_billing_country() on null in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php:350
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): bbloomer_payment_gateway_disable_country(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(89): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Payments.php(70): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\Payments::has_gateways()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\TaskList.php(235): Automattic\WooCo in C:\xampp\htdocs\wordpress\wp-content\themes\retail-shop\func_inc.php on line 350
+
